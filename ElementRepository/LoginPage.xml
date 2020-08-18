@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementRepository>
+	<Elements>
+        <Element title="skipLogin">
+            <XPath1>//*[@resource-id='com.amazon.mShop.android.shopping:id/skip_sign_in_button']</XPath1>
+		</Element>
+    </Elements>
+</ElementRepository>

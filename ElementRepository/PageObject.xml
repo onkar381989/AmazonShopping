@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementRepository>
+	<Elements>
+        <Element title="Restaurant">
+            <XPath1>//XCUIElementTypeStaticText[contains(@name,"RESTAURANTS")]</XPath1>
+		</Element>
+    </Elements>
+</ElementRepository>

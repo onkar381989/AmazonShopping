@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ElementRepository>
+	<Elements>
+        <Element title="Search">
+            <XPath1>//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']</XPath1>
+		</Element>
+		<Element title="SearchText">
+            <XPath1>//*[@resource-id='com.amazon.mShop.android.shopping:id/rs_search_src_text']</XPath1>
+		</Element>
+    </Elements>
+</ElementRepository>

@@ -1,0 +1,13 @@
+{
+    "DeviceList": [
+        {
+            "DeviceVersion": "8.1.0",
+            "DeviceName": "ZY223XJFLR",
+            "PlatformName": "Android",
+            "AppPackage": "com.amazon.mShop.android.shopping",
+            "AppActivity": "com.amazon.mShop.splashscreen.StartupActivity",
+            "ServerURL":"0.0.0.0",
+            "Port":"4723"
+        }
+    ]
+}
