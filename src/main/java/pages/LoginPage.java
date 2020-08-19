@@ -10,7 +10,7 @@ public class LoginPage extends LibraryMethods{
 	/*
 	 * This method takes care of clicking on skipLogin button which pops up when app is launched
 	 */
-	public boolean clickOnSipLoginButton() {
+	public boolean clickOnSkipLoginButton() {
 		boolean isSignUpSkipped = false;
 		isSignUpSkipped = clickOnButton("skipLogin");
 		log.info("LoginPage :: skipLogin() is executed sucessfully");

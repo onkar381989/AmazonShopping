@@ -23,7 +23,7 @@ public class STORY001_SearchTV  extends BaseTest{
 	@Test
 	@MaxRetryCount(3)
 	public void skipLogin() throws InterruptedException{
-		Assert.assertTrue(loginPage.clickOnSipLoginButton(), "Failed to click on Skip Login Button");
+		Assert.assertTrue(loginPage.clickOnSkipLoginButton(), "Failed to click on Skip Login Button");
 	}
 	
 	@MaxRetryCount(3)
