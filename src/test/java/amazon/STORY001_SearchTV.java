@@ -23,12 +23,12 @@ public class STORY001_SearchTV  extends BaseTest{
 	@Test
 	@MaxRetryCount(3)
 	public void skipLogin() throws InterruptedException{
-		Assert.assertTrue(loginPage.skipLogin(), "Failed to click on  Search");
+		Assert.assertTrue(loginPage.clickOnSipLoginButton(), "Failed to click on Skip Login Button");
 	}
 	
 	@MaxRetryCount(3)
 	@Test(dataProviderClass = TestData.class,dataProvider = "testdata")
 	public void searchTelevision(JSONObject testData) {
-		Assert.assertTrue(homePage.clickOnSearchButton(testData.getString("SearchText")), "Failed to click on  Search");
+		Assert.assertTrue(homePage.enterTextInSearchtextBox(testData.getString("SearchText")), "Failed to enter text on  SearchTextBox");
 	}
 }
