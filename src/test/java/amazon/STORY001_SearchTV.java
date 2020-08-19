@@ -27,7 +27,7 @@ public class STORY001_SearchTV  extends BaseTest{
 	}
 	
 	@MaxRetryCount(3)
-	@Test(dataProviderClass = TestData.class,dataProvider = "testdata")
+	@Test(dependsOnMethods = "skipLogin", dataProviderClass = TestData.class,dataProvider = "testdata")
 	public void searchTelevision(JSONObject testData) {
 		Assert.assertTrue(homePage.enterTextInSearchtextBox(testData.getString("SearchText")), "Failed to enter text on  SearchTextBox");
 	}
