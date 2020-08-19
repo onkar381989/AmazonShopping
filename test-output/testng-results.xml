@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="13279" started-at="2020-08-19T22:04:52 IST" finished-at="2020-08-19T22:05:05 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="13279" started-at="2020-08-19T22:04:52 IST" finished-at="2020-08-19T22:05:05 IST">
+      <class name="amazon.STORY001_SearchTV">
+        <test-method status="PASS" signature="environmentPreSetUp()[pri:0, instance:amazon.STORY001_SearchTV@48524010]" name="environmentPreSetUp" is-config="true" duration-ms="20880" started-at="2020-08-19T22:04:31 IST" finished-at="2020-08-19T22:04:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- environmentPreSetUp -->
+        <test-method status="PASS" signature="initializePageObject()[pri:0, instance:amazon.STORY001_SearchTV@48524010]" name="initializePageObject" is-config="true" duration-ms="14" started-at="2020-08-19T22:04:52 IST" finished-at="2020-08-19T22:04:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializePageObject -->
+        <test-method status="PASS" signature="skipLogin()[pri:0, instance:amazon.STORY001_SearchTV@48524010]" name="skipLogin" duration-ms="1609" started-at="2020-08-19T22:04:52 IST" finished-at="2020-08-19T22:04:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- skipLogin -->
+        <test-method status="PASS" signature="searchTelevision(org.json.JSONObject)[pri:0, instance:amazon.STORY001_SearchTV@48524010]" name="searchTelevision" duration-ms="11592" started-at="2020-08-19T22:04:53 IST" data-provider="testdata" depends-on-methods="amazon.STORY001_SearchTV.skipLogin" finished-at="2020-08-19T22:05:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{"SearchText":"65\" TV"}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTelevision -->
+        <test-method status="PASS" signature="stopAppiumServer()[pri:0, instance:amazon.STORY001_SearchTV@48524010]" name="stopAppiumServer" is-config="true" duration-ms="2" started-at="2020-08-19T22:05:05 IST" finished-at="2020-08-19T22:05:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopAppiumServer -->
+      </class> <!-- amazon.STORY001_SearchTV -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
